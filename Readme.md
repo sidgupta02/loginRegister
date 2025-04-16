@@ -4,15 +4,43 @@ This project demonstrates a basic MERN stack application with user authenticatio
 
 ## Project Structure
 
-/mern-auth-app ├── /client --> React Frontend └── /server --> Node.js + Express Backend
+/mern-auth-app
+├── /client         --> React Frontend
+└── /server         --> Node.js + Express Backend
+
 
 ### Backend
 
-/server ├── /config --> MongoDB connection configuration ├── /controllers --> Logic for user registration and login ├── /models --> User schema for MongoDB ├── /routes --> API routes for registration, login, and protected profile ├── /middleware --> JWT authentication middleware ├── .env --> Environment variables for sensitive info ├── server.js --> Main entry point for the backend server
+/server
+
+/config: MongoDB connection configuration.
+
+/controllers: Logic for user registration and login.
+
+/models: User schema for MongoDB.
+
+/routes: API routes for registration, login, and protected profile.
+
+/middleware: JWT authentication middleware.
+
+.env: Environment variables for sensitive info.
+
+server.js: Main entry point for the backend server.
+
 
 ### Frontend
 
-/client ├── /components --> Reusable components (e.g., InputField) ├── /pages --> Contains pages for Register, Login, and Profile ├── /utils --> Utility functions like Axios instance and authentication utilities ├── App.js --> Main component for routing and application setup └── index.js --> Entry point for the React application
+/client
+
+/components: Reusable components (e.g., InputField).
+
+/pages: Contains pages for Register, Login, and Profile.
+
+/utils: Utility functions like Axios instance and authentication utilities.
+
+App.js: Main component for routing and application setup.
+
+index.js: Entry point for the React application.
 
 
 ## Technologies Used
